@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# BOT_TOKEN = os.getenv("8304258144:AAGt8lVPk8kpRHGR765Q9Aiud6_oEWdfeKM")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 bot = Bot(token=BOT_TOKEN)
